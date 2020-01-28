@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'bignoodletitlingregular';
+  src: url('../../media/font/big_noodle_titling-webfont.woff2') format('woff2'),
+       url('../../media/font/big_noodle_titling-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+html, main {
+  height: 100%;
+}
+body{
+  min-height: 90%;
+  background-repeat: no-repeat;
+  font-family: 'bignoodletitlingregular';
+}
+.loginBackground {
+  background-color: transparent;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+.logoLogin {
+  width: 220px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.login-input {
+  display: inline-block;
+  font-size: 5ch;
+  border: none;
+  color: #1B9BC5;
+  margin: 0;
+}
+input:focus {
+    outline: none;
+}
+.login-input-wrap {
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: white;
+  padding: 3px 25px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-form {
+  margin: 1ch;
+}
+.login-btn {
+  color: white;
+  display: block;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 3px 25px;
+  width: 450px;
+  margin-bottom: 1rem;
+  font-size: 5ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-btn:hover, .login-btn:active {
+  background-color: white !important;
+  color: #1C9BC6 !important;
+  border-color: white !important;
+  cursor: pointer;
+}
+.login-btn:focus {
+  outline: none !important;
+}
+.login-card {
+  width: 300px;
+  border-radius: 5px;
+  margin: 0 auto 2ch auto;
+  text-align: center;
+}
+.login-card-success {
+  color: rgba(75, 181, 67, 1);
+  border: 3px solid rgba(75, 181, 67, 1);
+  background-color: rgba(0, 0, 0, .2);
+}
+.login-card-error {
+  color: rgba(255, 148, 148, 1);
+  border: 3px solid rgba(255, 148, 148, 1);
+  background-color: rgba(0, 0, 0, .2);
+}
+.login-card h4 {
+  margin-bottom: 0;
+}
+.input-field-1 {
+  width: 310px;
+}
+.input-field-2, .input-field-3 {
+  width: 330px;
+}
+.input-field-4 {
+  width: 222px;
+}
+.link-cadastro {
+  color: rgba(75, 181, 67, 1);
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link-cadastro:hover, .link-cadastro:active {
+  color: rgba(75, 181, 67, 1);
+}
+header {
+  background-color: black;
+}
+.kodika {
+  font-size: 15ch;
+}
+.by-aspas {
+  font-size: 8ch;
+}
+.logo {
+  display: inline-block;
+  color: white;
+}
+.nav-link {
+  color: white;
+  font-size: 8ch;
+}
+.current-page, .nav-link:hover, .nav-link:active {
+  color: black;
+  background-color: white;
+}
+.nav-link:hover, .nav-link:active {
+  transition: .2s;
+}
+.navbar {
+  margin-top: 4.7ch;
+  padding-bottom: 0 !important;
+}
+.dropdown-menu {
+  background-color: black;
+}
+.container-navbar {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.container-nav-inside {
+  padding: 0;
+}
+.image-home {
+  display: block;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+.divider-home {
+  border: 4px solid white;
+  width: 350px;
+}
+.container-kodika {
+  max-width: 1280px;
+  margin: 2% auto;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  background-image: linear-gradient(to bottom right, rgb(0,183,211), rgb(84,99,171));
+}
+.subtitulo-kodika {
+  color: white;
+  font-size: 13ch;
+}
+.status-kodika {
+  color: white;
+  font-size: 7ch;
+}
+.games-row {
+  width: 90%;
+  margin: 0 auto;
+}
+.game {
+  padding: 0;
+  max-width: 350px;
+  width: 350px;
+  margin: 1% auto;
+}
+.game-image {
+  width: 350px;
+}
+.game-bottom {
+  background-color: white;
+  padding-bottom: 40px;
+}
+.game-title {
+  font-size: 8ch;
+  padding: 0;
+  margin: 0 0 0 3%;
+}
+.game-dev, .game-genre {
+  font-size: 3.5ch;
+  padding: 0;
+  margin: 0 0 0 3%;
+}
+.game-button {
+  background-color: black;
+  color: white;
+  border: none;
+  position: absolute;
+  transform: rotateZ(-90deg);
+  right: 0;
+  bottom: 24px;
+  font-size: 10ch;
+  padding: 0 15px;
+  box-shadow: 2px 0px 0 2px black;
+}
+.game-button:hover {
+  box-shadow: 2px 0px 0 2px black;
+  color: black;
+  background-color: white;
+  transition: .25s;
+}
+button.btn.btn-primary.btn-gamereg {
+  color: black;
+  padding: 0;
+  font-size: 5ch;
+  width: 12rem;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 0;
+}
+button.btn.btn-primary.btn-gamereg:hover, button.btn.btn-primary.btn-gamereg:active {
+  background-color: black !important;
+  color: white !important;
+  border-color: white !important;
+}
+.wrap-gamelist-title a {
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+.wrap-gamelist-title a:hover, .wrap-gamelist-title a:active {
+  text-decoration: none;
+  color: white;
+}
+.table-cell {
+  color: white;
+  font-size: 4ch;
+  font-weight: normal;
+}
+.table-cell-even {
+  background-color: rgba(255, 255, 255, .1);
+}
+.table-cell-odd {
+  background-color: rgba(255, 255, 255, .2);
+}
+.dataTables_wrapper, .dataTables_wrapper label, .dataTables_wrapper .dataTables_info {
+  color: white;
+  font-size: 3ch;
+}
+.form-kodika {
+  color: white;
+  font-size: 4.5ch;
+}
+.form-kodika input, .form-kodika textarea {
+  font-size: 2.5ch;
+}
+input.btn.btn-info.btn-gamereg {
+  font-size: 3ch;
+  background-color: black;
+  border: 2px solid black;
+  padding: 0 5px;
+}
+input.btn.btn-info.btn-gamereg:hover, input.btn.btn-info.btn-gamereg:active {
+  background-color: white;
+  color: black;
+}
+.page-item.active .page-link {
+  background-color: black;
+  border-color: black;
+}
+.a-edit:hover {
+  text-decoration: none !important;
+}
+.btn-edit, .btn-delete {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 15px;
+  background-color: white;
+  border-color: white;
+}
+.btn-edit:hover, .btn-delete:hover, .btn-edit:active, .btn-delete:active {
+  background-color: black !important;
+  border-color: black !important;
+}
+.btn-edit {
+  background-image: url('../../media/img/pencil-black.png');
+}
+.btn-edit:hover, .btn-edit:active {
+  background-image: url('../../media/img/pencil-white.png');
+}
+.btn-delete {
+  background-image: url('../../media/img/trash-bin-black.png');
+}
+.btn-delete:hover, .btn-delete:active {
+  background-image: url('../../media/img/trash-bin-white.png');
+}
+.container-game-details {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.image-game-details {
+  width: 300px;
+  height: 300px;
+}
+.titulo-game-details, .desc-game-details, .text-game-details, .coment-game-details {
+  color: white;
+}
+.titulo-game-details {
+  font-size: 12ch;
+  padding: 0;
+}
+.desc-game-details {
+  font-size: 5ch;
+  margin-bottom: 1.5rem;
+}
+.text-game-details {
+  font-size: 3.5ch;
+  padding: 0;
+  margin: 0;
+}
+.coment-game-details {
+  font-size: 6ch;
+  margin: 1.5rem 0 .3rem 0;
+}
+.autor-comentario, .comentario {
+  color: black;
+  padding: 0;
+  margin: 0 0 0 1rem;
+}
+.comentario {
+  font-size: 5ch;
+}
+.autor-comentario {
+  font-size: 3ch;
+}
+.container-coment {
+  background-color: white;
+  max-width: 400px;
+  padding: 1rem 0;
+}
+.btn-game-details {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.btn-game-back {
+  border-top-color: black !important;
+  border-top-width: 1px !important;
+}
+.btn-game-coment {
+  bottom: 49px;
+  border-bottom-color: black !important;
+  border-bottom-width: 1px !important;
+}
+.container-profile {
+  max-width: 1280px;
+  max-height: 300px;
+  margin: 2% auto 0 auto;
+  background-image: linear-gradient(to bottom right, rgb(87, 121, 139), rgb(142, 65, 113));
+  padding: 4% 15%;
+}
+.container-profile .col.row {
+  height: fit-content;
+  position: relative;
+}
+.container-edit-profile {
+  max-width: 1200px;
+  margin: 0 auto 2% auto;
+  padding: 1% 15%;
+  color: white;
+}
+.container-edit-profile h2 {
+  font-size: 7ch;
+}
+.container-edit-profile label {
+  font-size: 5ch;
+}
+.container-edit-profile input {
+  font-size: 5ch;
+}
+.avatar {
+  max-width: 232px;
+  height: 200px;
+}
+.nickname {
+  color: white;
+  font-size: 10ch;
+}
+.container-profile .col.fundo-pontos {
+  background-color: #d03b51;
+  position: absolute;
+  width: auto;
+  right: 230px;
+  top: 340px;
+}
+.pontuacao {
+  color: white;
+  font-size: 7ch;
+  text-align: right;
+}
+.btn-profile {
+  font-size: 5ch;
+  color: white;
+  border-radius: 0;
+  background-color: #17bd01;
+  border: none;
+}
+.btn-profile:active, .btn-profile:hover {
+  background-color: #17bd01 !important;
+  border: none;
+}
+.estrelas input[type=radio] {
+	display: none;
+}
+.estrelas label i.fa:before {
+	content: '\f005';
+	color: #FC0;
+  font-size: 5ch;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+	color: #CCC;
+}
+.comment-area {
+  font-size: 4ch;
+}
+.estrela-game-details {
+  height: 3rem;
+}
